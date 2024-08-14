@@ -1,0 +1,137 @@
+.miama{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 140px;                                                
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.body{
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    margin: 57px 197px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2.26rem;
+    color: #E6533C;
+}
+
+nav ul{
+    display: flex;
+    border: solid rgba(255, 255, 255, 0.1) 1px;
+    border-radius: 39px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+nav li{
+    font-size: 1.125rem;
+    list-style: none;
+    margin: 4px 0px;
+    padding: 8px 23.5px;
+}
+
+.home{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+    margin: 4px;
+    font-weight: 600;
+}
+
+.body-in-shape{
+    
+    width: 520px;
+}
+
+.shape{
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 78px;
+}
+
+.orange-btn{
+    width: 224px;
+    font-family: inter;
+    background-color: #e6533c;
+    border-radius: 42px;
+    padding: 16px 0px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+.black-btn{
+    width: 224px;
+    font-family: inter;
+    background-color: transparent;
+    border-radius: 42px;
+    padding: 16px 0px;
+    border: solid 1px white;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 214px 0px 190px;
+}
+
+.tr-card1{
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 17px 24px;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 169px;
+    height: 81px;
+    position: relative;
+    bottom: 450px;
+    left: 230px;
+}
+
+.tr-card2{
+    background-color: rgba(48, 48, 48, 0.54);
+    width: 182px;
+    height: 82px;
+    padding: 17px 24px;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 350px;
+    right: 150px;
+}
+
+.tr-cards{
+    /* display: flex; */
+}
+
+.header{
+    background-image: linear-gradient(rgba(119, 119, 119, 0), rgba(17, 17, 17, 1), black);
+}
+
+.round-orange{
+    width: 40px;  
+    height: 40px ; 
+    background-color: #e6533c; 
+    border-radius: 50%;
+}
