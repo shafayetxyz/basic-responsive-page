@@ -177,6 +177,7 @@ nav li{
     background-color:rgba(34, 34, 34, 1) ;
     display: flex;
     padding: 0px 190px;
+    justify-content: space-between;
 }
 
 .bmi-heading{
@@ -184,6 +185,107 @@ nav li{
     flex-direction: column;
     align-items: center;
 }
+
+.bottom-left{
+    position: absolute;
+    bottom: 19px;
+    left: 19px;
+}
+
+.team-member1{
+    background-image: url(images/trainer1.png);
+    height: 272px;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.team-member2{
+    background-image: url(images/trainer2.png);
+    height: 272px;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.team-member3{
+    background-image: url(images/trainer3.png);
+    height: 272px;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.team-member4{
+    background-image: url(images/trainer4.png);
+    height: 272px;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.team-member5{
+    background-image: url(images/trainer5.png);
+    height: 272px;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.team-member6{
+    background-image: url(images/trainer6.png);
+    height: 272px;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 20px;
+    margin: 30px 190px;
+    border-radius: 18px;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.form{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, auto);
+    margin-bottom: 20px;
+}
+
+
+input{
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+select{
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: gray;
+}    
+
+.supp{
+    width: 300px;
+}
+
+
+
 
 
 
