@@ -135,3 +135,67 @@ nav li{
     background-color: #e6533c; 
     border-radius: 50%;
 }
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section2-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2-cards img{
+    border-radius: 50%;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    margin: 0px 25.5px;
+}
+
+.section2-cards div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3{
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 190px;
+    border-radius: 18px;
+    padding: 32px;
+}
+
+
+
+
+
+
+.full-footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 66px 190px;
+}
+
+
+.footer-divide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ftr-logo{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 70px;
+    color: #E6533C; 
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px white;
+}
