@@ -121,10 +121,6 @@ nav li{
     right: 150px;
 }
 
-.tr-cards{
-    /* display: flex; */
-}
-
 .header{
     background-image: linear-gradient(rgba(119, 119, 119, 0), rgba(17, 17, 17, 1), black);
 }
@@ -170,6 +166,17 @@ nav li{
     padding: 32px;
 }
 
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi{
+    background-color:rgba(34, 34, 34, 1) ;
+    display: flex;
+}
 
 
 
