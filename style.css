@@ -176,6 +176,13 @@ nav li{
 .bmi{
     background-color:rgba(34, 34, 34, 1) ;
     display: flex;
+    padding: 0px 190px;
+}
+
+.bmi-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
