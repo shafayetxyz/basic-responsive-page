@@ -1,7 +1,7 @@
 .miama{
     font-family: 'Miama', sans-serif;
     font-weight: 400;
-    font-size: 140px;                                                
+    font-size: 140px;                                         
 }
 
 .inter {
@@ -11,9 +11,24 @@
   font-style: normal;
 }
 
+
+h4{
+    margin: 0px;
+}
+.big-text{
+    font-size: 48px;
+    margin: 0px;
+}
+
+.small-description{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+}
 .body{
     background-color: black;
     color: white;
+    margin: 0px;
 }
 .nav{
     display: flex;
@@ -315,3 +330,4 @@ select{
     justify-content: center;
     border-top: solid 1px white;
 }
+
