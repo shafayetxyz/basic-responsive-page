@@ -13,17 +13,20 @@
 
 
 h4{
-    margin: 0px;
+    /* margin: 0px; */
 }
 .big-text{
     font-size: 48px;
     margin: 0px;
+    font-weight: 800;
+    margin-bottom: 14px;
 }
 
 .small-description{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     margin: 0px;
+    text-align: center;
 }
 .body{
     background-color: black;
@@ -32,7 +35,7 @@ h4{
 }
 .nav{
     display: flex;
-    margin: 57px 197px;
+    margin: 57px 197px 32px;
     align-items: center;
     justify-content: space-between;
 }
@@ -68,7 +71,7 @@ nav li{
 }
 
 .body-in-shape{
-    
+   
     width: 520px;
 }
 
@@ -76,8 +79,15 @@ nav li{
     font-size: 78px;
     font-weight: 800;
     line-height: 78px;
+    margin-bottom: 0px;
+    
 }
 
+.unleash{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 28px 0px;    
+}
 .orange-btn{
     width: 224px;
     font-family: inter;
@@ -119,6 +129,7 @@ nav li{
     position: relative;
     bottom: 450px;
     left: 230px;
+    
 }
 
 .tr-card2{
@@ -151,17 +162,26 @@ nav li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px 198px;
 
 }
 
-.section2-cards{
+.sec2-heading{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2-cards{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-top: 58px;
     justify-content: space-between;
 }
 
 .section2-cards img{
     border-radius: 50%;
-    border: solid 1px rgba(255, 255, 255, 0.1);
+    border: solid 5px rgba(255, 255, 255, 0.1);
     margin: 0px 25.5px;
 }
 
@@ -169,6 +189,8 @@ nav li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px 20px;
+    padding: 0px 20px;
 }
 
 .section3{
@@ -181,21 +203,124 @@ nav li{
     padding: 32px;
 }
 
+.run-extra{
+    width: 443px;
+    margin: 54px;
+}
+
+.push-beyond{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 34px 0px; 
+}
+
+.running{
+    border-radius: 18px;
+}
+
 .section4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
     align-items: center;
+    margin-bottom: 88px;
 }
 
 .bmi{
     background-color:rgba(34, 34, 34, 1) ;
     display: flex;
-    padding: 0px 190px;
-    justify-content: space-between;
+    padding: 52px 190px;
+    justify-content: space-evenly;
+    margin-top: 88px;
 }
 
 .bmi-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 20px;
+    margin: 58px 190px;
+    border-radius: 18px;
+}
+
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 15px 18px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 15px 18px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+h3{
+    font-size: 28px;
+}
+
+
+.itm1{
+    grid-area: itm1;
+}
+.itm2{
+    grid-area: itm2;
+}
+.itm3{
+    grid-area: itm3;
+}
+.itm4{
+    grid-area: itm4;
+}
+.itm5{
+    grid-area: itm5;
+}
+
+.form{
+    display: grid;
+    gap: 12px;
+    grid-template-areas: 
+    "itm1 itm2"
+    "itm3 itm4"
+    "itm5 itm5"
+    ;
+    margin: 34px 0px;
+}
+
+
+input{
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+select{
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: gray;
+}  
+
+.meet-team{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,6 +338,7 @@ nav li{
     background-size: cover;
     border-radius: 18px;
     position: relative;
+    background-position: top;
 }
 
 .team-member2{
@@ -221,6 +347,7 @@ nav li{
     background-size: cover;
     border-radius: 18px;
     position: relative;
+    background-position: top;
 }
 
 .team-member3{
@@ -229,6 +356,7 @@ nav li{
     background-size: cover;
     border-radius: 18px;
     position: relative;
+    background-position: top;
 }
 
 .team-member4{
@@ -237,6 +365,7 @@ nav li{
     background-size: cover;
     border-radius: 18px;
     position: relative;
+    background-position: center;
 }
 
 .team-member5{
@@ -245,6 +374,7 @@ nav li{
     background-size: cover;
     border-radius: 18px;
     position: relative;
+    background-position: center;
 }
 
 .team-member6{
@@ -253,48 +383,20 @@ nav li{
     background-size: cover;
     border-radius: 18px;
     position: relative;
+    background-position: center;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 20px;
-    background-color: rgba(34, 34, 34, 1);
-    padding: 20px;
-    margin: 30px 190px;
-    border-radius: 18px;
+.check-our{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 58px;
 }
 
-table, th, td{
-    border: 1px solid;
-    border-collapse: collapse;
+.supplements{
+    margin-top: 58px;
 }
-
-.form{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(2, auto);
-    margin-bottom: 20px;
-}
-
-
-input{
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 10px;
-    padding-left: 10px;
-}
-
-select{
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 10px;
-    padding-left: 10px;
-    color: gray;
-}    
-
 .supp{
     width: 300px;
 }
