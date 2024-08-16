@@ -457,6 +457,7 @@ select{
     .hero{
         display: flex;
         flex-direction: column;
+        margin: 0px;
 
     }
     .shape{
@@ -520,6 +521,7 @@ select{
         width: 100px;
         position: relative;
         bottom: 350px;
+        left: 20px;
     }
 
     .tr-card2{
@@ -528,4 +530,5 @@ select{
         bottom: 350px;
         left: 50px;
     }
+
 }
