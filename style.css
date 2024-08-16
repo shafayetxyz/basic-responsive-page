@@ -438,3 +438,94 @@ select{
     font-size: 23px;
 }
 
+
+
+
+@media screen and (max-width: 576px) {
+    .header{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        margin: 0px;
+    }
+    .menu{
+        display: none;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .shape{
+        font-size: 32px;
+    }
+
+    .miama{
+        font-size: 40px;
+    }
+
+    .big-text{
+        font-size: 32px;
+    }
+
+    .section2-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .running{
+        width: 287px;
+    }
+
+    .run-extra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 520px;
+    }
+
+    .bmi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        margin: 20px;
+    }
+
+    .footer-divide{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .full-footer{
+        padding: 0px;
+    }
+
+    .tr-card1{
+        width: 100px;
+        position: relative;
+        bottom: 350px;
+    }
+
+    .tr-card2{
+        width: 120px;
+        position: relative;
+        bottom: 350px;
+        left: 50px;
+    }
+}
